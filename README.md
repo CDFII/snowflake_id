@@ -1,5 +1,5 @@
 # Snowflake ID Module for Roblox
-Module to create realtively short and unique ID's for your proejcts in Roblox!
+Module to create relatively short and unique ID's for projects in Roblox!
 
 ### Functions
 | Function           | Params                   | Description                                                              |

@@ -50,6 +50,7 @@ function Snowflake.AddPrefix(ID: SnowflakeID, Prefix: string, before: boolean?):
 end
 
 function Snowflake.ConvertIntoChars(ID: SnowflakeID, SliceEveryXStep: number?): string
+	assert(ID, "ID was not provided or was nil")
 	SliceEveryXStep = SliceEveryXStep or TextGenDefaultSlice -- ID slicing step
 	local NewId = ""
 	
