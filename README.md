@@ -1,10 +1,15 @@
 # Snowflake ID Module for Roblox
 Module to create realtively short and unique ID's for your proejcts in Roblox!
 
-### Usage
-| Function    | Params    | Description         |
-| ---         | ---       | ---                 |
-| `generate`  | *None*    | Generates random ID |
+### Functions
+| Function           | Params                   | Description                                                              |
+| ---                | ---                      | ---                                                                      |
+| `new`              | *None*                   | Generates random ID                                                      |
+| `AddPrefix`        | ID: SnowflakeID          | Adds string before or after the id                                       |
+|                    | Prefix: string           |                                                                          |
+|                    | before: boolean?         |                                                                          |
+| `ConvertIntoChars` | ID: SnowflakeID          | Converts given Snowflake ID into characters corresponding Utf-8 encoding |
+|                    | SliceEveryXStep: number? |                                                                          |
 
 ### Types
 | Type           | Properties        |
