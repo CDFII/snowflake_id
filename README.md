@@ -2,6 +2,12 @@
 Module to create realtively short and unique ID's for your proejcts in Roblox!
 
 ### Usage
-| Function      | Description |
-| ---           | --- |
-| `generate`    | Generates random ID |
+| Function    | Params    | Description         |
+| ---         | ---       | ---                 |
+| `generate`  | *None*    | Generates random ID |
+
+### Types
+| Type           | Properties        |
+| ---            | ---               |
+| `SnowflakeID`  | ID: string        |
+|                | Timestamp: number |
