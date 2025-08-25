@@ -12,7 +12,9 @@ Module to create relatively short and unique ID's for projects in Roblox!
 |                    | SliceEveryXStep: number? |                                                                          |
 
 ### Types
-| Type           | Properties        |
-| ---            | ---               |
-| `SnowflakeID`  | ID: string        |
-|                | Timestamp: number |
+| Type           | Properties         |
+| ---            | ---                |
+| `SnowflakeID`  | ID: string         |
+|                | RandomGen: number  |
+|                | Timestamp: number  |
+|                | HasPrefix: boolean |
